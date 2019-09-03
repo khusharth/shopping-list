@@ -1,0 +1,73 @@
+/* ---------------------------------------- */
+/* BASIC SETUP */
+/* ---------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html,body {  
+    color: #383838;
+    font-family: 'Amatic SC', cursive, sans-serif;
+    font-size: 45px;
+    font-weight: 300;  /*We choose 300(normal font) from the google font*/
+    text-rendering: optimizeLegibility;  /* Optimized for ease of reading */
+    overflow-x: hidden; /* Hide the overflow of things from the page*/
+    text-align: center;
+}
+
+/* ---------------------------------------- */
+/* SHOPPING LIST */
+/* ---------------------------------------- */
+section {
+    background-image: linear-gradient(#FB872B,#D9E021);
+    min-height: 100vh;
+    height: 100%;
+}
+
+h1 {
+    font-size: 250%;
+}
+
+#enter {
+    padding: 12px 5px 12px 5px;
+    border-radius: 2px;
+    cursor: pointer;
+    box-shadow: 0px 5px 5px rgba(54, 54, 54, 0.466);
+    background-color: rgb(187, 187, 187);
+    border: 1px solid rgb(187, 187, 187);
+    margin: 0;
+}
+
+button {
+    margin-left: 10px;
+    padding: 2px;
+    cursor: pointer;
+    box-shadow: 0px 5px 5px rgba(54, 54, 54, 0.466);
+    font-size: 35%;
+    background-color: red;
+    border: 1px solid red;
+
+}
+
+input {
+    text-align: center;
+    border-radius: 2px;
+    padding: 15px;
+    width: 50%;
+    box-shadow: 0px 5px 5px rgba(54, 54, 54, 0.466);
+    margin-bottom: 20px;
+}
+
+li {
+    display: list-item;
+    list-style-type: disc;
+    cursor: pointer;
+ }
+
+.done {
+    text-decoration: line-through;
+ }
