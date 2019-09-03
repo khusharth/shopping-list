@@ -38,3 +38,8 @@ ul.addEventListener("click",function(e) {
     event.target.classList.toggle("done");
   });
 
+ul.addEventListener("click",function(e) {
+    if (event.target.matches("button")) 
+        event.target.parentNode.classList.toggle("remove");
+    });
+  

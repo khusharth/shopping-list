@@ -71,3 +71,7 @@ li {
 .done {
     text-decoration: line-through;
  }
+
+ .remove {
+     display: none;
+ }
